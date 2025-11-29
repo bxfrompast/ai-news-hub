@@ -1,0 +1,54 @@
+/* Custom Styles for AI News Hub */
+
+body {
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Card Styling */
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle box-shadow */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Category Badge Styling */
+.category-badge {
+    color: white; /* Default text color for badges */
+    font-weight: bold;
+    padding: 0.4em 0.8em;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+/* Unique Colors for Specific Categories */
+.custom-badge-llms-gpt {
+    background-color: #007bff; /* Primary Blue */
+}
+
+.custom-badge-ai-ethics-policy {
+    background-color: #dc3545; /* Danger Red */
+}
+
+.custom-badge-computer-vision {
+    background-color: #ffc107; /* Warning Yellow */
+    color: #343a40; /* Darker text for contrast */
+}
+
+.custom-badge-robotics {
+    background-color: #28a745; /* Success Green */
+}
+
+/* Filter Button Styling */
+.filter-btn {
+    transition: all 0.2s;
+}
+
+.filter-btn.active {
+    font-weight: bold;
+}
